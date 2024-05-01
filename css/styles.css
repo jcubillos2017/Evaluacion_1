@@ -1,6 +1,15 @@
 h1,h2{
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color: darkgray;
+    }
+
+h1 {
+    text-align: center;
+    color:darkgray;
+}
+
+body {
+    background-color: blanchedalmond;
 }
 
 p{font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
@@ -28,9 +37,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: #000;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 nav a:hover {
     text-decoration: underline;
+}
+/* cambia de color la imagen al pasar el mouse encima*/
+img{
+    filter: hue-rotate(200deg);
+    transition: all 400ms ease-in-out;
+}
+
+img:hover{
+    filter: hue-rotate(100deg);
 }
