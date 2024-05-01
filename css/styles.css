@@ -3,7 +3,7 @@ h1,h2{
 	color: darkgray;
     }
 
-h1 {
+h1,h2,h3{
     text-align: center;
     color:darkgray;
 }
