@@ -1,80 +1,111 @@
 .enlaces {
-    font-family: 'time new roman', sans-serif;/*tipo de letra de los enlaces*/
-    font-size: 20px;/*tamaño de la letra de los enlaces*/
-    text-align: center;/*centrar los enlaces*/
-    display: flex;/*para que los enlaces se pongan en línea*/
-    justify-content: space-around; /*espaciado entre los enlaces*/
-    padding: 1rem;/*espaciado entre los enlaces*/
-    background-color: var(--plum);/*color de fondo de la barra de navegación*/
-}
-
-.container-enlnosotros{
+    font-family: 'time new roman', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
     background-color: var(--plum);
-    font-size:25px;
-    position: absolute;
-    padding: 5rem;
-    margin: 10px;
-    width: 750px;
-}
-
-a{
-    text-decoration: none;/*quitar subrayado de los enlaces*/
-    color:black;/*color de los enlaces*/
-    color: var(coral-pink); /*color de los enlaces*/
-}
-
-.imgPrincipal{
-    display: block;/*para que se centre la imagen*/
-    width: 1500px;/*tamaño de la imagen*/
-    height: 750px;/*tamaño de la imagen*/
-    margin: auto; /*centrar imagen*/
-    max-width: 100%;
-}
-
-.portada{
-    font-family: 'Times New Roman', Times, serif;/*tipo de letra de la portada*/
-    text-align: center;/*centrar el texto de la portada*/
 
 }
 
-.subtitulo{
-    font-family: 'Times New Roman', Times, serif;/*tipo de letra del subtitulo*/
-    text-align: center;/*centrar el texto del subtitulo*/
-    position: relative;/*posición del subtitulo*/
+.container-enlnosotros ol {
+    font-family: 'time new roman', sans-serif;
+    background-color: var(--plum);
+    font-size: 50px;
+    text-align: center;
+    padding: 0%;
+    margin-top: 25px;
+    justify-content: space-between;
+
 }
 
-h3{
-    font-family: 'Times New Roman', Times, serif;/*tipo de letra de la portada*/
-    text-align: center;/*centrar el texto de la portada*/
+a {
+    text-decoration: none;
+    color: black;
+    color: var(coral-pink);
 }
 
-.Contactate{
-    font-family: 'Times New Roman', Times, serif;/*tipo de letra de la portada*/
-    text-align: center;/*centrar el texto de la portada*/
+.imgPrincipal {
+    background-image: url("Public\background-nosotros.jpg");
+    display: block;
+    /*para que se centre la imagen*/
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
 }
 
-.parrafo{
+.portada {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;/*tamaño de la letra del párrafo*/
-    border: 15px solid black;/*borde de la caja*/
-    border-style: groove;   /*estilo del borde de la caja*/
-    border: fixed;/*para que el borde no se mueva*/
-    padding: 40px;/*espaciado del párrafo*/
-    color:black;/*color del párrafo*/
-    align-items: center;/*centrar el párrafo*/
-    display: flex;/*para que el párrafo se ponga en línea*/
-    float: none;/*para que el párrafo no se mueva*/
-    width: 900px;/*posicion del párrafo en la caja*/
-    margin: auto;/*centrar la caja  */
-    justify-content: center;/*centrar el párrafo*/
-    flex-flow: row wrap;/*para que el párrafo se ponga en línea*/
-    align-items: center;/*centrar el párrafo*/
-    gap: 10px;/*espaciado entre los párrafos*/
-    position: relative; /*posición del párrafo*/
-    top: 150px;/*posición del párrafo*/
+    /*tipo de letra de la portada*/
+    text-align: center;
+    /*centrar el texto de la portada*/
+
 }
 
-.Imgnosotros{
+.subtitulo {
+    font-family: 'Times New Roman', Times, serif;
+    /*tipo de letra del subtitulo*/
+    text-align: center;
+    /*centrar el texto del subtitulo*/
+    position: relative;
+    /*posición del subtitulo*/
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    /*centrar el texto de la portada*/
+}
+
+.Contactate {
+    font-family: 'Times New Roman', Times, serif;
+    /*tipo de letra de la portada*/
+    text-align: center;
+    /*centrar el texto de la portada*/
+}
+
+.parrafo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /*tamaño de la letra del párrafo*/
+    border: 15px solid black;
+    /*borde de la caja*/
+    border-style: groove;
+    /*estilo del borde de la caja*/
+    border: fixed;
+    /*para que el borde no se mueva*/
+    padding: 40px;
+    /*espaciado del párrafo*/
+    color: black;
+    /*color del párrafo*/
+    align-items: center;
+    /*centrar el párrafo*/
+    display: flex;
+    /*para que el párrafo se ponga en línea*/
+    float: none;
+    /*para que el párrafo no se mueva*/
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    /*centrar la caja  */
+    justify-content: center;
+    /*centrar el párrafo*/
+    flex-flow: row wrap;
+    /*para que el párrafo se ponga en línea*/
+    align-items: center;
+    /*centrar el párrafo*/
+    gap: 10px;
+    /*espaciado entre los párrafos*/
+    position: relative;
+    /*posición del párrafo*/
+    top: 100px;
+    /*posición del párrafo*/
+}
+
+.Imgnosotros {
     min-height: 100vh;
     background: url(Public\background-nosotros.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -83,108 +114,113 @@ h3{
     height: 100%;
 }
 
- 
 
-.Enlgaleria{
-    position: relative;/*posición del enlace*/
-    font-family: 'time new roman', sans-serif;/*tipo de letra de los enlaces*/
-    font-size: 20px;/*tamaño de la letra de los enlaces*/
-    padding: 5rem;/*espaciado entre los enlaces*/
-    background-color: var(--plum);/*color de fondo de la barra de navegación*/
+
+.Enlgaleria {
+    position: relative;
+    /*posición del enlace*/
+    font-family: 'time new roman', sans-serif;
+    /*tipo de letra de los enlaces*/
+    font-size: 20px;
+    /*tamaño de la letra de los enlaces*/
+    padding: 5rem;
+    /*espaciado entre los enlaces*/
+    background-color: var(--plum);
+    /*color de fondo de la barra de navegación*/
     left: 500px;
     top: 5px;
 }
 
-.Enlcontacto{
-    position: relative;/*posición del enlace*/
-    font-family: 'time new roman', sans-serif;/*tipo de letra de los enlaces*/
-    font-size: 20px;/*tamaño de la letra de los enlaces*/
-    padding: 5rem;/*espaciado entre los enlaces*/
-    background-color: var(--plum);/*color de fondo de la barra de navegación*/
-    left: 500px;
-    top: 5px;
+.botoncontacto {
+    font-family: 'time new roman', sans-serif;
+    font-size: 15px;
+    background-color: var(--plum);
+    margin-top: 30px;
+    text-align: center;
+
 }
 
-/*.contenedor{
+
+.galeriaI {
     width: 100%;
-    margin: auto;
-    
- }*/
-
- .galeriaI{
-    width: 100%;/*tamaño de la imagen*/ 
+    /*tamaño de la imagen*/
 }
 
-.imgColumna{
-    margin: 10px;/*espaciado de la caja*/
-    
-}
-
-.arteGaleria .contenedor{
- display: grid;/*para que las imágenes se pongan en línea*/
+.imgColumna {
+    margin: 10px;
+    /*espaciado de la caja*/
 
 }
-    
-  @media(min-width:520px){
-    .arteGaleria .contenedor{
+
+.arteGaleria .contenedor {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+@media(min-width:520px) {
+    .arteGaleria .contenedor {
         grid-template-columns: repeat(2, 50%);
     }
 }
 
-@media(min-width:728px){
-    .arteGaleria .contenedor{
+@media(min-width:728px) {
+    .arteGaleria .contenedor {
         grid-template-columns: repeat(3, 33.3%);
     }
 }
 
-@media(min-width:1024px){
-    .arteGaleria .contenedor{
+@media(min-width:1024px) {
+    .arteGaleria .contenedor {
         grid-template-columns: repeat(4, 25%);
     }
-    .contenedor{
+
+    .contenedor {
         width: 1024px;
     }
 }
 
-@media(min-width:1200px){
-    .contenedor{
+@media(min-width:1200px) {
+    .contenedor {
         width: 1200px;
     }
 }
 
-img{
-    filter: hue-rotate(200deg);/*filtro de la imagen*/
-    transition: all 400ms ease-in-out;/*transición de la imagen*/
+img {
+    filter: hue-rotate(200deg);
+    /*filtro de la imagen*/
+    transition: all 400ms ease-in-out;
+    /*transición de la imagen*/
 }
 
-img:hover{
-    filter: hue-rotate(100deg);/*filtro de la imagen*/
+img:hover {
+    filter: hue-rotate(100deg);
+    /*filtro de la imagen*/
 }
 
-.container-form{
+.container-form {
     width: 100%;
     max-width: 1100px;
     margin: auto;
-    dispplay: grid;
-    grid-template-columns: repeat(2,1fr);
+    /*display: grid;*/
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
+    margin-top: 15px;
+}
+
+
+.container-form p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 40px;
     margin-top: 90px;
 }
 
-.container-form h2{
-    margin-bottom: 15px;
-    font-size: 35px;    
-}
-
-.container-form p{
-    font-size: 25px;    
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-.container-form a{
+.container-form a {
     font-size: 20px;
-    display: inline-block;
+    /*display: inline-block;*/
     text-decoration: none;
     width: 100%;
     margin-bottom: 15px;
@@ -192,52 +228,48 @@ img:hover{
     font-weight: 700;
 }
 
-.container-form a i{
+.container-form a i {
     color: orange;
-    margin-right: 10px; /*espaciado entre los elementos*/
+    margin-right: 10px;
+    /*espaciado entre los elementos*/
 }
 
-.container-form .campo, textarea{
+.container-form .campo,
+textarea {
     width: 100%;
     padding: 15px 10px;
-    font-size: 15px;    
+    font-size: 15px;
     border: 1px solid #dbdbdb;
     margin-bottom: 20px;
     border-radius: 3px;
     outline: 0px;
 }
 
-.container-form form textarea{
+.container-form form textarea {
     max-width: 1130px;
     min-width: 530px;
     min-height: 140px;
     max-height: 150px;
 }
 
-.container-form .btn-enviar{
+.container-form .btn-enviar {
     padding: 15px;
-    font-size: 16px;    
+    font-size: 16px;
     border: nomne;
     outline: 0px;
     background: orange;
-    color:white;
+    color: white;
     border-radius: 3px;
     cursor: pointer;
     transition: all 300ms ease;
 }
 
-.container-form .btn-enviar:hover{
+.container-form .btn-enviar:hover {
     background: #ff6600;
 }
 
-.contenedor{
-    margin: o;
-    position: absolute;
-    top: 50%;
-    transform: translate(-0%, -0%);
-}
 
-i{
+i {
     text-align: center;
     font-size: 20px;
     color: black;
@@ -247,3 +279,17 @@ i{
     box-shadow: 0px 5px 10px rgb, black (0, 0, 0, .35);
     transition: .3s ease;
 }
+
+.contenedorflex {
+    display: flex;
+}
+
+.footer-bottom_social{
+    text-align: center;
+}
+
+.button .imagen1{
+    left: 500px;
+}
+
+
