@@ -96,3 +96,5 @@ function borrarimagen(imagenID) {
     const elemento = document.getElementById(imagenID)
     elemento.remove()
 }
+
+
